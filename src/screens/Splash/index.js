@@ -11,7 +11,10 @@ import * as S from './styles';
 const Splash = ({ navigation, getMe, logout }) => {
   React.useEffect(() => {
     setTimeout(() => {
-      navigation.navigate('Login');
+      navigation.reset({
+        index: 0,
+        routes: [{ name: 'Login' }],
+      });
     }, 2000);
   }, [navigation]);
 

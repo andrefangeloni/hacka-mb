@@ -2,7 +2,7 @@ import I18n from 'react-native-i18n';
 
 import ptBR from './ptBR';
 
-I18n.defaultLocale = 'pt-BR';
+I18n.defaultLocale = 'ptBR';
 
 I18n.fallbacks = true;
 
