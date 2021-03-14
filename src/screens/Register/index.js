@@ -24,7 +24,7 @@ const Register = ({ navigation }) => {
   const passwordRef = React.useRef();
   const confirmPasswordRef = React.useRef();
 
-  const onSignUp = () => {};
+  const onSignUp = () => navigation.navigate('OnboardingStepOne');
 
   return (
     <S.Container>

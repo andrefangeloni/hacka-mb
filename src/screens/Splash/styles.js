@@ -24,8 +24,9 @@ export const Logo = styled.Image.attrs({
 `;
 
 export const Title = styled.Text`
-  color: ${colors.WHITE};
-  text-align: center;
   font-size: 48px;
+  text-align: center;
+  color: ${colors.WHITE};
+  text-transform: uppercase;
   font-family: ${fonts.ASTRO_SPACE};
 `;

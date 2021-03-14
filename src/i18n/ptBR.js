@@ -1,5 +1,6 @@
 export default {
   appleLogin: 'Continuar com a Apple',
+  appName: 'Jornada',
   businessEmail: 'E-mail Corporativo',
   createAccount: 'Criar Conta',
   confirmPassword: 'Confirmação da senha',
@@ -17,15 +18,28 @@ export default {
   login: 'Entrar',
   name: 'Nome',
   networkError: 'Falha na comunicação com a internet',
+  next: 'Próximo',
+  onboardingOneTitle: 'Seja mentorado por excelentes profissionais',
+  onboardingOneDescription:
+    'Tenha um caminho mais claro, fácil e objetivo com a ajuda de um profissional da área',
+  onboardingTwoTitle: 'Alcançe todos os seus objetivos',
+  onboardingTwoDescription:
+    'Tenha controle de todas as suas metas e se organize da melhor maneira',
   or: 'ou',
   password: 'Senha',
+  privateAndSafe: 'privado e seguro',
   profile: 'Perfil',
+  questionScreenDesc:
+    'Para deixarmos a sua experiência ainda melhor, vamos precisar que responda algumas perguntas, ok',
+  questionScreenDescTwo: 'Não se preocupe, tudo é totalmente',
   register: 'Cadastrar',
   signUp: 'Cadastre-se',
+  start: 'Começar',
   termsOfUse: 'Termos de Uso',
   termsOfUseDescription: 'Ao clicar em "Criar conta", você concorda com nossos',
   unexpectedError: 'Algo deu errado. Tente novamente',
   userNotFound: 'Usuário não encontrado',
   weakPassword: 'Senha fraca. Insira pelo menos 6 dígitos',
+  whatIsYourFieldOfActivity: 'Qual é a sua área de atuação',
   wrongPassword: 'Senha não confere',
 };

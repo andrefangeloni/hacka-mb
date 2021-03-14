@@ -10,6 +10,8 @@ import i18n from '../i18n';
 import Splash from '../screens/Splash';
 import Login from '../screens/Login';
 import Register from '../screens/Register';
+import OnboardingStepOne from '../screens/Onboarding/StepOne';
+import OnboardingStepTwo from '../screens/Onboarding/StepTwo';
 
 import Home from '../screens/Home';
 import Profile from '../screens/Profile';
@@ -52,6 +54,8 @@ const Routes = () => (
       <Stack.Screen name="Splash" component={Splash} />
       <Stack.Screen name="Login" component={Login} />
       <Stack.Screen name="Register" component={Register} />
+      <Stack.Screen name="OnboardingStepOne" component={OnboardingStepOne} />
+      <Stack.Screen name="OnboardingStepTwo" component={OnboardingStepTwo} />
       <Stack.Screen name="BottomTabNavigator" component={BottomTabNavigator} />
     </Stack.Navigator>
   </NavigationContainer>
