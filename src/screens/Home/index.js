@@ -1,6 +1,6 @@
 import React from 'react';
 import { Text } from 'react-native';
 
-const App = () => <Text>Hello World</Text>;
+const Home = () => <Text>Home</Text>;
 
-export default App;
+export default Home;
