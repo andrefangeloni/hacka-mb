@@ -37,6 +37,8 @@ const dark = {
 };
 
 export const fonts = {
+  ASTRO_SPACE: 'aAstroSpace',
+
   POPPINS_BLACK: 'Poppins-Black',
   POPPINS_BLACK_ITALIC: 'Poppins-BlackItalic',
   POPPINS_BOLD: 'Poppins-Bold',

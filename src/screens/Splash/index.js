@@ -6,7 +6,7 @@ import Storage, { keys } from '../../data/storage';
 
 import { AuthActions, UserActions } from '../../redux/actions';
 
-import { Container, LogoWrapper, Logo } from './styles';
+import * as S from './styles';
 
 const Splash = ({ navigation, getMe, logout }) => {
   React.useEffect(() => {
@@ -33,11 +33,13 @@ const Splash = ({ navigation, getMe, logout }) => {
   }, [navigation, getMe, logout]);
 
   return (
-    <Container>
-      <LogoWrapper>
-        <Logo />
-      </LogoWrapper>
-    </Container>
+    <S.Container>
+      <S.LogoWrapper>
+        <S.Logo />
+      </S.LogoWrapper>
+
+      <S.Title>JORNADA</S.Title>
+    </S.Container>
   );
 };
 

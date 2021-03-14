@@ -1,10 +1,8 @@
 import React from 'react';
-import { Text } from 'react-native';
 
+import * as S from './styles';
 import { fonts } from '../../themes';
 
-const Login = () => (
-  <Text style={{ fontFamily: fonts.POPPINS_REGULAR }}>Login</Text>
-);
+const Login = () => <S.Container />;
 
 export default Login;
