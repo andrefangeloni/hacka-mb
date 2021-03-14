@@ -13,7 +13,7 @@ import { onlyEmail, customLetters } from '../../utils/masked-input';
 import * as S from './styles';
 import { colors } from '../../themes';
 
-const Login = () => {
+const Login = ({ navigation }) => {
   const [email, setEmail] = React.useState('');
   const [password, setPassword] = React.useState('');
 
@@ -95,8 +95,10 @@ const Login = () => {
       </S.SocialButtonsWrapper>
 
       <S.HaveAnAccountText>
-        Não tem uma conta?{' '}
-        <S.RegisterText onPress={() => {}}>Cadastre-se</S.RegisterText>
+        {`${i18n.t('dontHaveAnAccount')}?`}{' '}
+        <S.RegisterText onPress={() => navigation.navigate('Register')}>
+          {i18n.t('signUp')}
+        </S.RegisterText>
       </S.HaveAnAccountText>
     </S.Container>
   );
